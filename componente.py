@@ -32,7 +32,7 @@ class Ventana(QMainWindow):
 class Boton(QtWidgets.QWidget):
     def __init__(self, texto = "Pulsa aquí", parent=None):
         super().__init__(parent)
-        layout = QtWidgets.QHBoxLayout() #Establecemos un layout horizontal
+        layout = QtWidgets.QHBoxLayout() # Establecemos un layout horizontal
         
         self.boton = QtWidgets.QPushButton() # Creamos el widget Boton
         self.boton.setText(texto)
@@ -78,20 +78,22 @@ class Cuadro(QWidget):
     def cambiar_opacidad(self, valor):
         effect = QGraphicsOpacityEffect(self)
         self.setGraphicsEffect(effect)
+
         self.anim = QPropertyAnimation(effect, b"opacity")
         self.anim.setStartValue(self.getOpacidad())
-
-        self.cambio_opacidad.emit(valor)  #Emitimos la señal
-
         self.anim.setEndValue(valor)
         self.anim.setDuration(800)
         self.anim.start()
+
+        #self.setOpacidad(valor)
+        self.cambio_opacidad.emit(valor)  #Emitimos la señal
+
 
     def hacer_transparente(self):
         self.cambiar_opacidad(0.25)
 
     def hacer_opaco(self):
-        self.cambiar_opacidad(1)
+        self.cambiar_opacidad(1.0)
 
     def sizeHint(self):
         return QSize(100, 100)
