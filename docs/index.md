@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Componente personalizado
 
-You can use the [editor on GitHub](https://github.com/amogalla/DI-Practica_4/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### ¿En qué consiste?
+En este repositorio encontrarás un componente animado simple, consistente en un recuadro de color azul con dos botones. Cada uno de ellos modificará la opacidad del recuadro mediante una animación que durará menos de un segundo. Al finalizar la animación, el recuadro azul será totalmente opaco o semitransparente, en función del botón sobre el que hemos hecho click.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### ¿Cómo se usa?
+El funcionamiento es sencillo: una vez ejecutado veremos el recuadro azul junto a dos botones.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Tras pulsar el botón ***Tramsparente***, el recuadro cambia su opacidad y se muestra, mediante una animación, en semitransparente:
+![Botón transparente](https://github.com/amogalla/DI-Practica_4/blob/main/docs/componente_transparente.png  "Botón transparente")
+
+
+2. Al hacer lo propio con el botón ***Opaco***, el recuadro vuelve, también mediante una animación, a su estado original:
+![Botón opaco](https://github.com/amogalla/DI-Practica_4/blob/main/docs/componente1.png  "Botón opaco")
+
+
+### ¿Cómo colaborar el desarollo del componente?
+Este componente está distribuido bajo licencia MIT, por lo que puede sentirse libre de mejorar, modificar, utilizar y/o distribuirlo. En caso de que se opte por participar en el desarrollo de este componente, es preferible hacerlo mediante el uso de _issues_ frente a _pull requests_. 
+
+El diseño debe mantenerse, a menos que fuese necesario una modificación para el correcto funcionamiento. También debe mantenerse la estructura del código, utilizando la tecla de tabulador para la indentación del mismo. 
+
+Será condición indispensable para aceptar una _pull request_ que el código a añadir incluya sus tests correspondientes.
+
+
+### Instalación
+Para la instalación del componente en su equipo, debemos seguir los siguientes pasos:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+pip install
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/amogalla/DI-Practica_4/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
