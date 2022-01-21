@@ -1,1 +1,3 @@
 theme: jekyll-theme-leap-day
+url: 'https://amogalla.github.io/' # your main domain
+baseurl: 'DI-Practica_4/'
