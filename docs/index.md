@@ -8,7 +8,7 @@ El funcionamiento es sencillo: una vez ejecutado veremos el recuadro azul junto 
 
 1. Tras pulsar el botón ***Transparente***, el recuadro cambia su opacidad y se muestra, mediante una animación, en semitransparente:
 
-![Botón transparente](https://github.com/amogalla/DI-Practica_4/blob/main/docs/componente_transparente.png  "Botón transparente")
+![Botón transparente](https://raw.githubusercontent.com/amogalla/DI-Practica_4/main/docs/componente_transparente.png "Botón transparente")
 
 2. Al hacer lo propio con el botón ***Opaco***, el recuadro vuelve, también mediante una animación, a su estado original:
 
