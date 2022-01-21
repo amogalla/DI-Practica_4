@@ -29,4 +29,4 @@ Para la instalación del componente en su equipo, debemos seguir los siguientes 
 pip install botonOpacidad-amogalla
 ```
 
-Si desea obtener más información del componente, puede visitar https://pypi.org/project/botonOpacidad-amogalla
+Si desea obtener más información del componente, puede visitar la [web del proyecto](https://pypi.org/project/botonOpacidad-amogalla).
