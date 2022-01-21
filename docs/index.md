@@ -26,5 +26,7 @@ Será condición indispensable para aceptar una _pull request_ que el código a 
 Para la instalación del componente en su equipo, debemos seguir los siguientes pasos:
 
 ```markdown
-pip install -i https://test.pypi.org/simple/ boton-opacidad-amogalla
+pip install botonOpacidad-amogalla
 ```
+
+Si desea obtener más información del componente, puede visitar https://pypi.org/project/botonOpacidad-amogalla
