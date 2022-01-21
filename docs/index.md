@@ -10,8 +10,6 @@ El funcionamiento es sencillo: una vez ejecutado veremos el recuadro azul junto 
 
 ![Botón transparente](https://github.com/amogalla/DI-Practica_4/blob/main/docs/componente_transparente.png  "Botón transparente")
 
-![Botón transparente2](/docs/componente_transparente.png)
-
 2. Al hacer lo propio con el botón ***Opaco***, el recuadro vuelve, también mediante una animación, a su estado original:
 
 ![Botón opaco](https://github.com/amogalla/DI-Practica_4/blob/main/docs/componente1.png  "Botón opaco")
