@@ -1,7 +1,7 @@
 # Herramientas utilizadas
 
 ### Herramientas de diseño
-El diseño original se ha realizado en papel, y se ha trasladado al programa Qt Designer, con el podemos diseñar y crear interfaces gráficas de usuario utilizando Widgets Qt. Posteriormente, este diseño, ya definitivo, es el que se ha convertido ha código python para PySide6.
+El diseño original se ha realizado en papel, y se ha trasladado al programa Qt Designer, con el podemos diseñar y crear interfaces gráficas de usuario. Posteriormente, este diseño, ya definitivo, es el que se ha convertido a código python para PySide6.
 
 ### Herramientas de desarrollo
 La herramienta utilizada ha sido el editor de texto Visual Studio Code, que ha sido muy útil para el desarrollo de código en lenguaje Python, su depuración, e integración con control de versiones Git.
