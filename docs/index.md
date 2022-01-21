@@ -7,7 +7,7 @@ En este repositorio encontrarás un componente animado simple, consistente en un
 ### ¿Cómo se usa?
 El funcionamiento es sencillo: una vez ejecutado veremos el recuadro azul junto a dos botones.
 
-1. Tras pulsar el botón ***Tramsparente***, el recuadro cambia su opacidad y se muestra, mediante una animación, en semitransparente:
+1. Tras pulsar el botón ***Transparente***, el recuadro cambia su opacidad y se muestra, mediante una animación, en semitransparente:
 
 ![Botón transparente](https://github.com/amogalla/DI-Practica_4/blob/main/docs/componente_transparente.png  "Botón transparente")
 
